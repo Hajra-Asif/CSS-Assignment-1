@@ -4,22 +4,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .container {
     display: flex;
-    max-height: 95vh;
+    max-height: 100vh;
    
 }
-
 .sidebar {
-    display: inline-block;
     background-color: #3d0066;
     height: 100vh;
     width: 20%;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    
 }
-
 .image {
     width: 160px;
     height: 160px;
@@ -27,10 +21,9 @@
     margin-top: 160px;
     margin-left: 55px;
     outline: 8px solid #714f85d5;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(44, 44, 44, 0.842) 0px 5px 15px;
 }
-
-div>a {
+.link{
     display: block;
     text-decoration: none;
     text-transform: uppercase;
@@ -42,41 +35,36 @@ div>a {
     font-weight: 400;
     letter-spacing: 1px;
 }
-
-div>a:hover {
+.link:hover {
     color: #fff;
     text-decoration: underline;
     text-shadow: -2px 0 4px rgba(0, 0, 0, 0.6);
     font-weight: 500;
 }
-
 /* detail section */
 /* about */
 .details {
-        max-height: 800px;
         width: 100%;
+        height: 100vh;
         overflow: auto;
         scroll-behavior: smooth;
 }
-
 .about{
-    height: 100vh;
+    height: 80vh;
     margin-left: 55px;
     margin-top: 201px;
     font-family: "Rubik", sans-serif;
     text-transform: uppercase;
-    border-bottom: 6px rgb(58, 58, 58);
-    align-items: center;
+    border-bottom: 1px rgba(44, 44, 44, 0.116);
+    align-items: left;
+    border-bottom: 2px solid rgb(15, 15, 15);
 }
-
-h1>span {
-    color: #3d0066;
-}
-
 .name {
     font-size: 60px;
 }
-
+h1>span {
+    color: #3d0066;
+}
 .address {
     margin-top: 2px;
     margin-left: 4px;
@@ -97,34 +85,33 @@ h1>span {
     margin-top: 60px;
     margin-left: 4px;
     text-transform: capitalize;
+    font-size: 16px;
 }
-
 .icons {
     margin-top: 30px;
     margin-left: -18px;
 }
 .experience{
-    height: 100vh;
+    height: 140vh;
     margin-left: 50px;
     margin-top: 201px;
     font-family: "Rubik", sans-serif;
     text-transform: uppercase;
-    /* border-bottom: 5px solid rgb(58, 58, 58); */
+    border-bottom: 2px solid rgb(15, 15, 15);
     font-size: 25px;
     align-items: center;
 }
-.position{
+.position {
     margin-left: 2px;
     margin-top: 70px;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 600;
     color: #3d0066;
 }
 .company{
     margin-left: 2px;
-    margin-top: 8px;
-    letter-spacing: 2px;
-    font-size: 20px;
+    margin-top: 6px;
+    font-size: 18px;
     font-weight: 500;
 }
 .date{
@@ -133,7 +120,7 @@ h1>span {
     margin-left: 600px;
     font-weight: 400;
 }
-.compinfo{
+.info{
     margin-top: 40px;
     margin-left: 4px;
     text-transform: capitalize;
@@ -154,6 +141,7 @@ h1>span {
     border-bottom: 1px rgb(58, 58, 58);
     font-size: 25px;
     align-items: center;
+    border-bottom: 2px solid rgb(15, 15, 15);
 }
 .date4{
     text-align: right;
@@ -176,6 +164,7 @@ h1>span {
     border-bottom: 1px rgb(58, 58, 58);
     font-size: 25px;
     align-items: center;
+    border-bottom: 2px solid rgb(15, 15, 15);
 }
 .lang{
     margin-left: 2px;
@@ -206,6 +195,7 @@ h1>span {
     border-bottom: 1px rgb(58, 58, 58);
     font-size: 25px;
     align-items: center;
+    border-bottom: 2px solid rgb(15, 15, 15);
 }
 .awards{
     height: 100vh;
